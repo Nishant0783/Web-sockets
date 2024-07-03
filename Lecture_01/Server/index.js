@@ -34,5 +34,6 @@ server.on('connection', socket => {
 })
 
 /***************************
- *
- */
+ NOTE: Here, the is one way like a phone call, if we open two instances of frontend and write some message 
+ in one instance, we will not be able to see that message in other instance.
+*/
